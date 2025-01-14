@@ -23,13 +23,13 @@ CREATE TABLE horarios_disponibles (
 DROP TABLE IF EXISTS reservas;
 CREATE TABLE reservas (
   id BIGINT AUTO_INCREMENT PRIMARY KEY,
-  cliente_id BIGINT NOT NULL,
+  client_id BIGINT NOT NULL,
   horario_disponible_id BIGINT NOT NULL,
   fecha_creacion TIMESTAMP NOT NULL,
   estado VARCHAR(50) NOT NULL,
 
   CONSTRAINT fk_reserva_cliente 
-    FOREIGN KEY (cliente_id) 
+    FOREIGN KEY (client_id) 
     REFERENCES clientes(id) 
     ON DELETE CASCADE,
 

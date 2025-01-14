@@ -1,11 +1,11 @@
-package co.com.test.reservas.validation;
+package co.com.backend.reservas.validation;
 
 import org.springframework.stereotype.Component;
 
-import co.com.test.reservas.model.Cliente;
-import co.com.test.reservas.model.HorarioDisponible;
-import co.com.test.reservas.repository.ClienteRepository;
-import co.com.test.reservas.repository.HorarioDisponibleRepository;
+import co.com.backend.reservas.model.Cliente;
+import co.com.backend.reservas.model.HorarioDisponible;
+import co.com.backend.reservas.repository.ClienteRepository;
+import co.com.backend.reservas.repository.HorarioDisponibleRepository;
 
 @Component
 public class ReservaValidator {

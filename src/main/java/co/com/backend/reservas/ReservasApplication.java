@@ -1,4 +1,4 @@
-package co.com.test.reservas.reservas;
+package co.com.backend.reservas;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

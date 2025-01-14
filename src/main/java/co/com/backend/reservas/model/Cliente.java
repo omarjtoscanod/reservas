@@ -1,7 +1,4 @@
-package co.com.test.reservas.model;
-
-import java.time.LocalDate;
-import java.time.LocalTime;
+package co.com.backend.reservas.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -12,18 +9,16 @@ import lombok.Data;
 
 @Data
 @Entity
-@Table(name = "horarios_disponibles")
-public class HorarioDisponible {
-
+@Table(name = "clientes")
+public class Cliente {
+    
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private LocalDate fecha;
+    private String nombre;
 
-    private LocalTime horaInicio;
+    private String email;
 
-    private LocalTime horaFin;
-
-    private int cuposDisponibles;
+    private String telefono;
 }

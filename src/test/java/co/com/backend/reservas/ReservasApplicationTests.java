@@ -1,4 +1,4 @@
-package co.com.test.reservas.reservas;
+package co.com.backend.reservas;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

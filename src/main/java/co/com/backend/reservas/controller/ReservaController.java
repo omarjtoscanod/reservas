@@ -1,4 +1,4 @@
-package co.com.test.reservas.controller;
+package co.com.backend.reservas.controller;
 
 import java.time.LocalDate;
 import java.util.List;
@@ -8,11 +8,15 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 
-import co.com.test.reservas.model.Reserva;
-import co.com.test.reservas.service.ReservaService;
+import co.com.backend.reservas.model.Reserva;
+import co.com.backend.reservas.service.ReservaService;
 
+@RestController
+@RequestMapping("/api/reservas")
 public class ReservaController {
     private final ReservaService reservaService;
 

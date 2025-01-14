@@ -1,4 +1,4 @@
-package co.com.test.reservas.model;
+package co.com.backend.reservas.model;
 
 import java.time.LocalDateTime;
 

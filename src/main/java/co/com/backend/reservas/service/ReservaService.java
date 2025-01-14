@@ -1,4 +1,4 @@
-package co.com.test.reservas.service;
+package co.com.backend.reservas.service;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -7,13 +7,13 @@ import java.util.List;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import co.com.test.reservas.model.Cliente;
-import co.com.test.reservas.model.HorarioDisponible;
-import co.com.test.reservas.model.Reserva;
-import co.com.test.reservas.repository.ClienteRepository;
-import co.com.test.reservas.repository.HorarioDisponibleRepository;
-import co.com.test.reservas.repository.ReservaRepository;
-import co.com.test.reservas.validation.ReservaValidator;
+import co.com.backend.reservas.model.Cliente;
+import co.com.backend.reservas.model.HorarioDisponible;
+import co.com.backend.reservas.model.Reserva;
+import co.com.backend.reservas.repository.ClienteRepository;
+import co.com.backend.reservas.repository.HorarioDisponibleRepository;
+import co.com.backend.reservas.repository.ReservaRepository;
+import co.com.backend.reservas.validation.ReservaValidator;
 
 @Service
 public class ReservaService {

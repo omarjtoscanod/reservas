@@ -1,8 +1,8 @@
-package co.com.test.reservas.repository;
+package co.com.backend.reservas.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import co.com.test.reservas.model.Reserva;
+import co.com.backend.reservas.model.Reserva;
 
 public interface ReservaRepository extends JpaRepository<Reserva, Long> {
     
